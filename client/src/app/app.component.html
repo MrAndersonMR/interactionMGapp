@@ -1,0 +1,22 @@
+<canvas
+#game
+width="640"
+height="480"
+style="border: 1px solid black">
+
+</canvas>
+<p>
+  <button (click)="move('right')">
+    right
+  </button>
+  <button (click)="move('left')">
+    left
+  </button>
+  <button (click)="move('up')">
+    up
+  </button>
+  <button (click)="move('down')">
+    down
+  </button>
+</p>
+<router-outlet></router-outlet>
